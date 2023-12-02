@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 1
 
 
    1              		.cpu cortex-m7
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
   27:vasynth.cpp   **** {
   28:vasynth.cpp   **** 	{//1
   29:vasynth.cpp   **** 		WAVE_POLYBLEP_SAW, 0.5f, 0.0f, 0.5f,
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 2
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 2
 
 
   30:vasynth.cpp   **** 		WAVE_POLYBLEP_SAW, 0.06f, 1.0f, 0.5f,
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
   56              		.cfi_offset 80, -68
   57              		.cfi_offset 81, -64
   58              		.cfi_offset 82, -60
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 3
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 3
 
 
   59              		.cfi_offset 83, -56
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
   41:../../DaisySP/Source/Control/adsr.h ****     void Init(float sample_rate, int blockSize = 1);
   42:../../DaisySP/Source/Control/adsr.h ****     /**
   43:../../DaisySP/Source/Control/adsr.h ****      \function Retrigger forces the envelope back to attack phase
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 4
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 4
 
 
   44:../../DaisySP/Source/Control/adsr.h ****      \param hard  resets the history to zero, results in a click.
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
   70:vasynth.cpp   **** 		
   71:vasynth.cpp   **** 		// EG - amplitude
   72:vasynth.cpp   **** 		
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 5
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 5
 
 
   73:vasynth.cpp   **** 		
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
  125 0062 F5EEC07A 		vcmpe.f32	s15, #0
  126 0066 F1EE10FA 		vmrs	APSR_nzcv, FPSCR
  127 006a 40F2C380 		bls	.L13
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 6
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 6
 
 
   69:../../DaisySP/Source/Control/adsr.h ****         sus_level_ = sus_level;
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
  172              	.LVL15:
   59:vasynth.cpp   **** 		osc_[i].SetWaveform(waveform_);
  173              		.loc 1 59 3 discriminator 2 view .LVU37
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 7
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 7
 
 
  174              	.LBB204:
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
  182 00b0 D5ED007A 		vldr.32	s15, [r5]
  183              	.LVL16:
  184              	.LBB209:
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 8
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 8
 
 
  185              	.LBI204:
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
   50:../../DaisySP/Source/Synthesis/oscillator.h ****         phase_inc_ = CalcPhaseInc(freq_);
  218              		.loc 3 50 20 discriminator 2 view .LVU56
  219 00ec 84ED07BA 		vstr.32	s22, [r4, #28]
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 9
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 9
 
 
  220              	.LBE206:
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
   11:../../DaisySP/Source/Utility/dsp.h **** /** PIs
   12:../../DaisySP/Source/Utility/dsp.h **** */
   13:../../DaisySP/Source/Utility/dsp.h **** #define PI_F 3.1415927410125732421875f
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 10
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 10
 
 
   14:../../DaisySP/Source/Utility/dsp.h **** #define TWOPI_F (2.0f * PI_F)
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
  256              	.LBE219:
  257              	.LBE218:
  258              	.LBE217:
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 11
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 11
 
 
  259              	.LBB235:
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
  296              	.LBB238:
  297              	.LBB213:
   63:../../DaisySP/Source/Synthesis/oscillator.h ****     }
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 12
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 12
 
 
  298              		.loc 3 63 34 discriminator 2 view .LVU78
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
  342              	.LVL21:
  343              	.LBB249:
  344              	.LBI243:
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 13
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 13
 
 
   69:../../DaisySP/Source/Synthesis/oscillator.h ****     /** Sets the waveform to be synthesized by the Process() function.
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
   49:../../DaisySP/Source/Utility/dsp.h ****     r = (a < b) ? a : b;
   50:../../DaisySP/Source/Utility/dsp.h **** #endif // __arm__
   51:../../DaisySP/Source/Utility/dsp.h ****     return r;
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 14
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 14
 
 
   52:../../DaisySP/Source/Utility/dsp.h **** }
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
  421 0138 5046     		mov	r0, r10
  422              	.LBE256:
  423              	.LBE255:
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 15
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 15
 
 
  424              	.LBB259:
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
  465              		.loc 3 49 20 discriminator 2 view .LVU131
  466 015e C4F890B1 		str	fp, [r4, #400]	@ float
   50:../../DaisySP/Source/Synthesis/oscillator.h ****         phase_inc_ = CalcPhaseInc(freq_);
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 16
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 16
 
 
  467              		.loc 3 50 20 discriminator 2 view .LVU132
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
  502              	.LBB264:
   74:../../DaisySP/Source/Synthesis/oscillator.h ****     }
  503              		.loc 3 74 9 discriminator 2 view .LVU152
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 17
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 17
 
 
  504              	.LBE264:
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
  546              		.loc 1 68 19 is_stmt 0 discriminator 2 view .LVU164
  547 0190 95ED060A 		vldr.32	s0, [r5, #24]
  548 0194 20EE2A0A 		vmul.f32	s0, s0, s21
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 18
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 18
 
 
  549              	.LVL31:
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
  590              	.LBB288:
  591              	.LBB287:
  592              	.LBB286:
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 19
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 19
 
 
  593              	.LBB282:
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
  632 01be 3946     		mov	r1, r7
  633 01c0 0198     		ldr	r0, [sp, #4]
  634 01c2 FFF7FEFF 		bl	_ZN7daisysp4Adsr7SetTimeEif
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 20
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 20
 
 
  635              	.LVL36:
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
   68:../../DaisySP/Source/Control/adsr.h ****                                        : (sus_level > 1.f) ? 1.f : sus_level;
  677              		.loc 2 68 40 view .LVU209
  678 01f8 41E7     		b	.L5
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 21
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 21
 
 
  679              	.LVL43:
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
  716              		.loc 3 46 20 view .LVU224
  717 0220 84ED028A 		vstr.32	s16, [r4, #8]
   54:../../DaisySP/Source/Synthesis/oscillator.h ****     }
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 22
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 22
 
 
  718              		.loc 3 54 20 view .LVU225
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
  753 0248 2046     		mov	r0, r4
  754              	.LBE300:
  755              	.LBE299:
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 23
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 23
 
 
   96:vasynth.cpp   **** 	lfo_.SetFreq(lfo_freq_);
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
   62:../../DaisySP/Source/Synthesis/oscillator.h ****         phase_inc_ = CalcPhaseInc(f);
  799              		.loc 3 62 20 view .LVU257
  800 025c 84ED020A 		vstr.32	s0, [r4, #8]
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 24
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 24
 
 
   63:../../DaisySP/Source/Synthesis/oscillator.h ****     }
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
  842              	.LBB320:
  843              	.LBI315:
   42:../../DaisySP/Source/Synthesis/oscillator.h ****     {
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 25
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 25
 
 
  844              		.loc 3 42 10 is_stmt 1 view .LVU272
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
   53:../../DaisySP/Source/Synthesis/oscillator.h ****         eor_       = true;
  878              		.loc 3 53 9 view .LVU293
   54:../../DaisySP/Source/Synthesis/oscillator.h ****     }
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 26
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 26
 
 
  879              		.loc 3 54 9 view .LVU294
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
  921              	.LBE328:
  922              		.loc 1 101 2 is_stmt 1 view .LVU307
  923              	.LBB329:
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 27
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 27
 
 
  924              	.LBI321:
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
  103:vasynth.cpp   **** 
  104:vasynth.cpp   **** 	pwm2lfo_.Init(sample_rate_);
  964              		.loc 1 104 2 is_stmt 1 view .LVU322
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 28
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 28
 
 
  965              		.loc 1 104 15 is_stmt 0 view .LVU323
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
   51:../../DaisySP/Source/Synthesis/oscillator.h ****         waveform_  = WAVE_SIN;
  1001              		.loc 3 51 34 is_stmt 0 view .LVU343
  1002 02f0 FFF7FEFF 		bl	_ZN7daisysp10Oscillator12CalcPhaseIncEf
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 29
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 29
 
 
  1003              	.LVL61:
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
  1043 030a 0023     		movcs	r3, #0
  1044              	.LVL63:
   74:../../DaisySP/Source/Synthesis/oscillator.h ****     }
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 30
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 30
 
 
  1045              		.loc 3 74 19 view .LVU358
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
  1086              	.LBB350:
   69:../../DaisySP/Source/Synthesis/oscillator.h ****     /** Sets the waveform to be synthesized by the Process() function.
  1087              		.loc 3 69 46 view .LVU373
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 31
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 31
 
 
  1088 0322 6360     		str	r3, [r4, #4]	@ float
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
  1125              		.loc 3 47 9 view .LVU391
   48:../../DaisySP/Source/Synthesis/oscillator.h ****         pw_rad_    = pw_ * TWOPI_F;
  1126              		.loc 3 48 9 view .LVU392
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 32
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 32
 
 
   49:../../DaisySP/Source/Synthesis/oscillator.h ****         phase_     = 0.0f;
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
  1166              	.LBI361:
   72:../../DaisySP/Source/Synthesis/oscillator.h ****     {
  1167              		.loc 3 72 17 view .LVU408
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 33
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 33
 
 
  1168              	.LBB363:
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
  1205              		.loc 1 112 2 is_stmt 1 view .LVU423
  1206              	.LBB368:
  1207              	.LBI368:
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 34
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 34
 
 
   69:../../DaisySP/Source/Synthesis/oscillator.h ****     /** Sets the waveform to be synthesized by the Process() function.
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
  1259              	_ZN7VASynth11SetWaveformEv:
  1260              	.LVL78:
  1261              	.LFB4794:
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 35
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 35
 
 
  117:vasynth.cpp   **** 
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
   72:../../DaisySP/Source/Synthesis/oscillator.h ****     {
  1298              		.loc 3 72 17 discriminator 2 view .LVU443
  1299              	.LBB374:
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 36
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 36
 
 
   74:../../DaisySP/Source/Synthesis/oscillator.h ****     }
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
  134:vasynth.cpp   **** 	for (uint8_t i = 0; i < VOICES_MAX; i++)
  1344              		.loc 1 134 1 is_stmt 0 view .LVU454
  1345 0000 70B5     		push	{r4, r5, r6, lr}
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 37
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 37
 
 
  1346              		.cfi_def_cfa_offset 16
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
  146:vasynth.cpp   **** 		eg_a_[i].SetTime(ADSR_SEG_RELEASE, eg_a_release_);
  1389              		.loc 1 146 3 is_stmt 1 view .LVU463
  1390              		.loc 1 146 19 is_stmt 0 view .LVU464
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 38
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 38
 
 
  1391 0038 2846     		mov	r0, r5
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
  1435              		.loc 1 135 24 view .LVU479
  1436 006c 27D0     		beq	.L35
  1437              	.L28:
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 39
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 39
 
 
  1438              	.LVL94:
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
   68:../../DaisySP/Source/Control/adsr.h ****                                        : (sus_level > 1.f) ? 1.f : sus_level;
  1479              		.loc 2 68 40 view .LVU493
  1480 00ac B6E7     		b	.L26
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 40
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 40
 
 
  1481              	.LVL100:
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
  1528              		.section	.text._ZN7VASynth9SetFilterEv,"ax",%progbits
  1529              		.align	1
  1530              		.p2align 2,,3
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 41
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 41
 
 
  1531              		.global	_ZN7VASynth9SetFilterEv
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
  1576 001e FFF7FEFF 		bl	_ZN10infrasonic10MoogLadder6SetResEf
  1577              	.LVL109:
  153:vasynth.cpp   **** 	{
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 42
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 42
 
 
  1578              		.loc 1 153 2 is_stmt 1 discriminator 2 view .LVU517
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
  1623              	.LBE394:
  1624              	.LBE393:
  1625              	.LBB397:
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 43
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 43
 
 
  1626              	.LBB398:
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
   62:../../DaisySP/Source/Synthesis/oscillator.h ****         phase_inc_ = CalcPhaseInc(f);
  1669              		.loc 3 62 20 is_stmt 0 view .LVU541
  1670 0024 85ED020A 		vstr.32	s0, [r5, #8]
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 44
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 44
 
 
   63:../../DaisySP/Source/Synthesis/oscillator.h ****     }
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
  1714              		@ args = 0, pretend = 0, frame = 0
  1715              		@ frame_needed = 0, uses_anonymous_args = 0
  169:vasynth.cpp   **** 	pwmlfo_.SetWaveform(pwmlfo_waveform_);
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 45
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 45
 
 
  1716              		.loc 1 169 2 view .LVU554
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
   74:../../DaisySP/Source/Synthesis/oscillator.h ****     }
  1760              		.loc 3 74 19 view .LVU566
  1761 0018 84F84434 		strb	r3, [r4, #1092]
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 46
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 46
 
 
  1762              	.LVL122:
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
  1803 002e 00BF     		.section	.text._ZN7VASynth10SetPWM2LFOEv,"ax",%progbits
  1804              		.align	1
  1805              		.p2align 2,,3
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 47
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 47
 
 
  1806              		.global	_ZN7VASynth10SetPWM2LFOEv
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
  1850              	.LBB421:
   63:../../DaisySP/Source/Synthesis/oscillator.h ****     }
  1851              		.loc 3 63 34 view .LVU593
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 48
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 48
 
 
  1852 0012 2846     		mov	r0, r5
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
  1892              		.loc 3 69 41 view .LVU608
   69:../../DaisySP/Source/Synthesis/oscillator.h ****     /** Sets the waveform to be synthesized by the Process() function.
  1893              		.loc 3 69 46 is_stmt 0 view .LVU609
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 49
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 49
 
 
  1894 0028 636E     		ldr	r3, [r4, #100]	@ float
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
  1940              	.LBE432:
  1941              	.LBE431:
  1942              	.LBB435:
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 50
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 50
 
 
  1943              	.LBB436:
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
   62:../../DaisySP/Source/Synthesis/oscillator.h ****         phase_inc_ = CalcPhaseInc(f);
  1986              		.loc 3 62 20 is_stmt 0 view .LVU633
  1987 0024 85ED020A 		vstr.32	s0, [r5, #8]
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 51
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 51
 
 
   63:../../DaisySP/Source/Synthesis/oscillator.h ****     }
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
  2031              		@ args = 0, pretend = 0, frame = 16
  2032              		@ frame_needed = 0, uses_anonymous_args = 0
  190:vasynth.cpp   **** 	float lfo_out;
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 52
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 52
 
 
  2033              		.loc 1 190 2 view .LVU646
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
  2066              	.LVL143:
  189:vasynth.cpp   **** 	float lfo_out;
  2067              		.loc 1 189 1 view .LVU666
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 53
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 53
 
 
  2068 000a 2DED0A8B 		vpush.64	{d8, d9, d10, d11, d12}
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
  212:vasynth.cpp   **** 	vcavcflfo_out = vcavcflfo_.Process();
  2108              		.loc 1 212 32 is_stmt 0 view .LVU677
  2109 0040 FFF7FEFF 		bl	_ZN7daisysp10Oscillator7ProcessEv
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 54
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 54
 
 
  2110              	.LVL148:
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
  243:vasynth.cpp   **** 			// Enable velocity control of the VCA on osc
  244:vasynth.cpp   **** 			osc_[i].SetAmp(env_a_out * velocity[i] * (1.0f + vcavcflfo_out));
  245:vasynth.cpp   **** 		}
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 55
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 55
 
 
  246:vasynth.cpp   **** 		else
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
  2145 006e D4ED1D5A 		vldr.32	s11, [r4, #116]
  2146              		.loc 1 286 85 view .LVU693
  2147 0072 79EE0B7A 		vadd.f32	s15, s18, s22
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 56
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 56
 
 
  2148              		.loc 1 286 110 view .LVU694
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
  2188 00b6 4FF00108 		movne	r8, #1
  2189 00ba 4FF00008 		moveq	r8, #0
  2190              	.LVL158:
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 57
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 57
 
 
  222:vasynth.cpp   **** 		{
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
  2229              	.LBB477:
  2230              	.LBB478:
   63:../../DaisySP/Source/Synthesis/oscillator.h ****     }
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 58
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 58
 
 
  2231              		.loc 3 63 34 view .LVU725
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
   69:../../DaisySP/Source/Synthesis/oscillator.h ****     /** Sets the waveform to be synthesized by the Process() function.
  2273              		.loc 3 69 46 view .LVU738
  2274              	.LBE503:
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 59
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 59
 
 
  2275              	.LBE502:
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
  2312 014c 93ED00CA 		vldr.32	s24, [r3]
  267:vasynth.cpp   **** 		osc_[i].SetFreq((note_freq_[i] + detune_ + bender + tuning + pitchmod));
  2313              		.loc 1 267 10 view .LVU756
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 60
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 60
 
 
  2314 0150 67EEABBA 		vmul.f32	s23, s15, s23
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
  2350              		.loc 1 269 56 view .LVU774
  2351 0178 BAEC017A 		vldmia.32	r10!, {s14}
  269:vasynth.cpp   **** 
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 61
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 61
 
 
  2352              		.loc 1 269 66 view .LVU775
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
   80:../../DaisySP/Source/Synthesis/oscillator.h ****         pw_rad_ = pw_ * TWOPI_F;
  2392              		.loc 3 80 9 view .LVU790
  2393              	.LBB493:
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 62
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 62
 
 
  2394              	.LBI482:
@@ -3718,7 +3718,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
  272:vasynth.cpp   **** 		osc2_[i].SetPw(osc2_pw_ + pwmlfo_out + pwm2lfo_out);
  2440              		.loc 1 272 16 view .LVU801
  2441 01b2 37EE297A 		vadd.f32	s14, s14, s19
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 63
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 63
 
 
  2442              	.LVL170:
@@ -3778,7 +3778,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
  2487              		.loc 3 81 17 view .LVU814
  2488              	.LBE501:
  2489              	.LBE517:
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 64
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 64
 
 
  273:vasynth.cpp   **** 
@@ -3838,7 +3838,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
  2534              	@ 0 "" 2
  2535              	.LVL176:
   40:../../DaisySP/Source/Utility/dsp.h **** }
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 65
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 65
 
 
  2536              		.loc 4 40 5 is_stmt 1 view .LVU826
@@ -3898,7 +3898,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
  2579 01f0 F0EE40BA 		vmov.f32	s23, s0
  2580              	.LVL181:
  276:vasynth.cpp   **** 
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 66
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 66
 
 
  2581              		.loc 1 276 3 is_stmt 1 view .LVU842
@@ -3958,7 +3958,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
  2618              		.loc 1 291 47 view .LVU859
  2619 0228 60EE277A 		vmul.f32	s15, s0, s15
  291:vasynth.cpp   **** 		}	
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 67
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 67
 
 
  2620              		.loc 1 291 96 view .LVU860
@@ -4018,7 +4018,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
  2660              		.loc 1 231 85 is_stmt 0 view .LVU874
  2661 027a DAED087A 		vldr.32	s15, [r10, #32]
  231:vasynth.cpp   **** 			eg_f_[i].SetTime(ADSR_SEG_RELEASE, eg_f_release_ * (1.0f - ((env_kbd_follow_ * (1.0f - follow[i]
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 68
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 68
 
 
  2662              		.loc 1 231 57 view .LVU875
@@ -4078,7 +4078,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
  2701              		.loc 1 233 87 view .LVU890
  2702 02ce 78EE677A 		vsub.f32	s15, s16, s15
  233:vasynth.cpp   **** 			eg_a_[i].SetTime(ADSR_SEG_DECAY, eg_a_decay_ * (1.0f - ((env_kbd_follow_ * (1.0f - follow[i]))))
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 69
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 69
 
 
  2703              		.loc 1 233 20 view .LVU891
@@ -4138,7 +4138,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
  2742 031c 5846     		mov	r0, fp
  235:vasynth.cpp   **** 		}
  2743              		.loc 1 235 61 view .LVU907
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 70
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 70
 
 
  2744 031e A7EE678A 		vfms.f32	s16, s14, s15
@@ -4198,7 +4198,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
   36:../../DaisySP/Source/Utility/delayline.h ****         write_ptr_ = 0;
   37:../../DaisySP/Source/Utility/delayline.h ****         delay_     = 1;
   38:../../DaisySP/Source/Utility/delayline.h ****     }
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 71
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 71
 
 
   39:../../DaisySP/Source/Utility/delayline.h **** 
@@ -4258,7 +4258,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
  2775              		.loc 5 74 30 view .LVU915
  2776 033c D3ED006A 		vldr.32	s13, [r3]
   72:../../DaisySP/Source/Utility/delayline.h ****         T b = line_[(write_ptr_ + delay_ + 1) % max_size];
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 72
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 72
 
 
  2777              		.loc 5 72 33 view .LVU916
@@ -4318,7 +4318,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
   73:../../DaisySP/Source/Utility/delayline.h ****         return a + (b - a) * frac_;
  2817              		.loc 5 73 47 view .LVU929
  2818 0364 A1FB0572 		umull	r7, r2, r1, r5
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 73
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 73
 
 
  2819              	.LBE539:
@@ -4378,7 +4378,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
  2864              	.LBE561:
  303:vasynth.cpp   **** 	delay_.Write(voice_out);
  304:vasynth.cpp   **** 	
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 74
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 74
 
 
  305:vasynth.cpp   **** 	// out
@@ -4438,7 +4438,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
  2909              		.cfi_restore 86
  2910              		.cfi_restore 87
  2911              		.cfi_restore 84
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 75
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 75
 
 
  2912              		.cfi_restore 85
@@ -4498,7 +4498,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
  2963 0002 4FF0080C 		mov	ip, #8
  2964 0006 0446     		mov	r4, r0
  2965 0008 2DED048B 		vpush.64	{d8, d9}
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 76
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 76
 
 
  2966              		.cfi_def_cfa_offset 32
@@ -4558,7 +4558,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
  324:vasynth.cpp   **** 	}
  325:vasynth.cpp   **** }	
  3002              		.loc 1 325 1 view .LVU973
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 77
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 77
 
 
  3003 0032 02B0     		add	sp, sp, #8
@@ -4618,7 +4618,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
   93:../../DaisySP/Source/Utility/dsp.h **** {
   94:../../DaisySP/Source/Utility/dsp.h ****     return expf(2.302585092994046f * f);
   95:../../DaisySP/Source/Utility/dsp.h **** }
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 78
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 78
 
 
   96:../../DaisySP/Source/Utility/dsp.h **** 
@@ -4678,7 +4678,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
  3042              	.LBB579:
  3043              	.LBI572:
  123:../../DaisySP/Source/Utility/dsp.h **** {
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 79
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 79
 
 
  3044              		.loc 4 123 14 view .LVU982
@@ -4738,7 +4738,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
  3090              	.LBB586:
  3091              	.LBI581:
  123:../../DaisySP/Source/Utility/dsp.h **** {
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 80
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 80
 
 
  3092              		.loc 4 123 14 is_stmt 1 view .LVU997
@@ -4798,7 +4798,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
  3135              		.cfi_def_cfa_offset 32
  3136              		@ sp needed
  3137 00c8 BDEC048B 		vldm	sp!, {d8-d9}
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 81
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 81
 
 
  3138              		.cfi_restore 82
@@ -4858,7 +4858,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
  332:vasynth.cpp   **** 		{
  333:vasynth.cpp   **** 			note_midi_[i] = 0;
  3186              		.loc 1 333 4 is_stmt 1 view .LVU1022
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 82
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 82
 
 
  3187              		.loc 1 333 18 is_stmt 0 view .LVU1023
@@ -4918,7 +4918,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
  3234              		.align	2
  3235              	.L87:
  3236 001c 00000000 		.word	pitch_bend
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 83
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 83
 
 
  3237              		.cfi_endproc
@@ -4978,7 +4978,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
  355:vasynth.cpp   ****  
  356:vasynth.cpp   **** void VASynth::FlashLoad(uint8_t aSlot)
  357:vasynth.cpp   **** {
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 84
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 84
 
 
  358:vasynth.cpp   **** 	VASynthSetting vaload;
@@ -5038,7 +5038,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
  392:vasynth.cpp   **** 	osc_mix_ = vas->osc_mix;
  3301              		.loc 1 392 2 is_stmt 1 view .LVU1046
  3302              		.loc 1 392 18 is_stmt 0 view .LVU1047
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 85
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 85
 
 
  3303 0010 D1F804C0 		ldr	ip, [r1, #4]	@ float
@@ -5098,7 +5098,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
  3346              		.loc 1 403 2 is_stmt 1 view .LVU1073
  3347              		.loc 1 403 23 is_stmt 0 view .LVU1074
  3348 0058 D1F828C0 		ldr	ip, [r1, #40]	@ float
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 86
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 86
 
 
  3349              		.loc 1 403 16 view .LVU1075
@@ -5158,7 +5158,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
  3392              		.loc 1 414 26 is_stmt 0 view .LVU1101
  3393 00a0 91F84CC0 		ldrb	ip, [r1, #76]	@ zero_extendqisi2
  3394              		.loc 1 414 19 view .LVU1102
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 87
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 87
 
 
  3395 00a4 80F850C0 		strb	ip, [r0, #80]
@@ -5218,7 +5218,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
  3437              		.loc 1 426 21 is_stmt 0 view .LVU1128
  3438 00e8 D1F878C0 		ldr	ip, [r1, #120]	@ float
  3439              		.loc 1 426 14 view .LVU1129
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 88
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 88
 
 
  3440 00ec C0F87CC0 		str	ip, [r0, #124]	@ float
@@ -5278,7 +5278,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
  3484              		.p2align 2,,3
  3485              		.global	_ZN7VASynth5FirstEv
  3486              		.syntax unified
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 89
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 89
 
 
  3487              		.thumb
@@ -5338,7 +5338,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
  3535              		@ frame_needed = 0, uses_anonymous_args = 0
  358:vasynth.cpp   **** 
  3536              		.loc 1 358 2 view .LVU1158
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 90
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 90
 
 
  360:vasynth.cpp   ****     
@@ -5398,7 +5398,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
  3578              		.cfi_endproc
  3579              	.LFE4806:
  3581              		.section	.text._ZN7VASynth10LiveToSaveEP14VASynthSetting,"ax",%progbits
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 91
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 91
 
 
  3582              		.align	1
@@ -5458,7 +5458,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
  3627 0016 4B61     		str	r3, [r1, #20]	@ float
  447:vasynth.cpp   **** 	vas->osc2_transpose = osc2_transpose_;
  3628              		.loc 1 447 2 is_stmt 1 view .LVU1191
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 92
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 92
 
 
  3629              		.loc 1 447 24 is_stmt 0 view .LVU1192
@@ -5518,7 +5518,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
  3673              		.loc 1 457 2 is_stmt 1 view .LVU1218
  3674              		.loc 1 457 22 is_stmt 0 view .LVU1219
  3675 003c 036C     		ldr	r3, [r0, #64]	@ float
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 93
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 93
 
 
  3676              		.loc 1 457 20 view .LVU1220
@@ -5578,7 +5578,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
  3718              		.loc 1 469 2 is_stmt 1 view .LVU1245
  3719              		.loc 1 469 21 is_stmt 0 view .LVU1246
  3720 006c 436E     		ldr	r3, [r0, #100]	@ float
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 94
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 94
 
 
  3721              		.loc 1 469 19 view .LVU1247
@@ -5638,7 +5638,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
  3764 00a2 7047     		bx	lr
  3765              		.cfi_endproc
  3766              	.LFE4809:
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 95
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 95
 
 
  3768              		.section	.text._ZN7VASynth9FlashSaveEh,"ax",%progbits
@@ -5698,7 +5698,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
  3810              	.LVL234:
  380:vasynth.cpp   **** 
  3811              		.loc 1 380 9 view .LVU1286
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 96
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 96
 
 
  3812 0012 01EB0231 		add	r1, r1, r2, lsl #12
@@ -5751,14 +5751,14 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
  3858              		.align	2
  3859              		.set	.LANCHOR0,. + 0
  3862              	preset_setting:
- 3863 0000 06       		.byte	6
+ 3863 0000 03       		.byte	3
  3864 0001 000000   		.space	3
  3865 0004 0000003F 		.word	1056964608
  3866 0008 00000000 		.word	0
  3867 000c 0000003F 		.word	1056964608
- 3868 0010 06       		.byte	6
+ 3868 0010 03       		.byte	3
  3869 0011 000000   		.space	3
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 97
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 97
 
 
  3870 0014 8FC2753D 		.word	1031127695
@@ -5772,19 +5772,19 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
  3878 0034 CDCCCC3E 		.word	1053609165
  3879 0038 CDCC4C3E 		.word	1045220557
  3880 003c CDCCCC3D 		.word	1036831949
- 3881 0040 01       		.byte	1
+ 3881 0040 00       		.byte	0
  3882 0041 000000   		.space	3
  3883 0044 0000003F 		.word	1056964608
  3884 0048 00000000 		.word	0
- 3885 004c 01       		.byte	1
+ 3885 004c 00       		.byte	0
  3886 004d 000000   		.space	3
  3887 0050 CDCC4C3E 		.word	1045220557
  3888 0054 CDCC4C3E 		.word	1045220557
- 3889 0058 01       		.byte	1
+ 3889 0058 00       		.byte	0
  3890 0059 000000   		.space	3
  3891 005c CDCCCC3D 		.word	1036831949
  3892 0060 CDCC4C3E 		.word	1045220557
- 3893 0064 02       		.byte	2
+ 3893 0064 01       		.byte	1
  3894 0065 000000   		.space	3
  3895 0068 CDCC4C3E 		.word	1045220557
  3896 006c 00000000 		.word	0
@@ -5818,7 +5818,7 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
  3922              		.file 15 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\debug\\debug.h"
  3923              		.file 16 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\arm-none-eabi\\t
  3924              		.file 17 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\bits\\algorithmf
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 98
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 98
 
 
  3925              		.file 18 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\bits\\stl_pair.h
@@ -5863,67 +5863,67 @@ ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 1
  3964              		.file 57 "vasynth.h"
  3965              		.file 58 "../../libDaisy/src/dev/sr_595.h"
  3966              		.file 59 "<built-in>"
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 99
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 99
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 vasynth.cpp
-C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s:17     .text._ZN7VASynth4InitEv:00000000 $t
-C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s:26     .text._ZN7VASynth4InitEv:00000000 _ZN7VASynth4InitEv
-C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s:1241   .text._ZN7VASynth4InitEv:0000038c $d
-C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s:1251   .text._ZN7VASynth11SetWaveformEv:00000000 $t
-C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s:1259   .text._ZN7VASynth11SetWaveformEv:00000000 _ZN7VASynth11SetWaveformEv
-C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s:1325   .text._ZN7VASynth5SetEGEv:00000000 $t
-C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s:1333   .text._ZN7VASynth5SetEGEv:00000000 _ZN7VASynth5SetEGEv
-C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s:1524   .text._ZN7VASynth5SetEGEv:000000c4 $d
-C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s:1529   .text._ZN7VASynth9SetFilterEv:00000000 $t
-C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s:1537   .text._ZN7VASynth9SetFilterEv:00000000 _ZN7VASynth9SetFilterEv
-C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s:1590   .text._ZN7VASynth6SetLFOEv:00000000 $t
-C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s:1598   .text._ZN7VASynth6SetLFOEv:00000000 _ZN7VASynth6SetLFOEv
-C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s:1701   .text._ZN7VASynth9SetPWMLFOEv:00000000 $t
-C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s:1709   .text._ZN7VASynth9SetPWMLFOEv:00000000 _ZN7VASynth9SetPWMLFOEv
-C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s:1804   .text._ZN7VASynth10SetPWM2LFOEv:00000000 $t
-C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s:1812   .text._ZN7VASynth10SetPWM2LFOEv:00000000 _ZN7VASynth10SetPWM2LFOEv
-C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s:1907   .text._ZN7VASynth12SetVCAVCFLFOEv:00000000 $t
-C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s:1915   .text._ZN7VASynth12SetVCAVCFLFOEv:00000000 _ZN7VASynth12SetVCAVCFLFOEv
-C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s:2018   .text._ZN7VASynth7ProcessEPfS0_:00000000 $t
-C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s:2026   .text._ZN7VASynth7ProcessEPfS0_:00000000 _ZN7VASynth7ProcessEPfS0_
-C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s:2926   .text._ZN7VASynth7ProcessEPfS0_:000003a4 $d
-C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s:2937   .text._ZN7VASynth6NoteOnEhh:00000000 $t
-C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s:2945   .text._ZN7VASynth6NoteOnEhh:00000000 _ZN7VASynth6NoteOnEhh
-C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s:3147   .text._ZN7VASynth6NoteOnEhh:000000d0 $d
-C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s:3154   .text._ZN7VASynth7NoteOffEh:00000000 $t
-C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s:3162   .text._ZN7VASynth7NoteOffEh:00000000 _ZN7VASynth7NoteOffEh
-C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s:3201   .text._ZN7VASynth9PitchBendEs:00000000 $t
-C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s:3209   .text._ZN7VASynth9PitchBendEs:00000000 _ZN7VASynth9PitchBendEs
-C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s:3236   .text._ZN7VASynth9PitchBendEs:0000001c $d
-C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s:3241   .text._ZN7VASynth13ProgramChangeEh:00000000 $t
-C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s:3249   .text._ZN7VASynth13ProgramChangeEh:00000000 _ZN7VASynth13ProgramChangeEh
-C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s:3266   .text._ZN7VASynth13ProgramChangeEh:00000008 $d
-C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s:3271   .text._ZN7VASynth10SaveToLiveEP14VASynthSetting:00000000 $t
-C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s:3279   .text._ZN7VASynth10SaveToLiveEP14VASynthSetting:00000000 _ZN7VASynth10SaveToLiveEP14VASynthSetting
-C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s:3478   .text._ZN7VASynth10SaveToLiveEP14VASynthSetting:00000120 $d
-C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s:3483   .text._ZN7VASynth5FirstEv:00000000 $t
-C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s:3491   .text._ZN7VASynth5FirstEv:00000000 _ZN7VASynth5FirstEv
-C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s:3515   .text._ZN7VASynth5FirstEv:0000000c $d
-C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s:3521   .text._ZN7VASynth9FlashLoadEh:00000000 $t
-C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s:3529   .text._ZN7VASynth9FlashLoadEh:00000000 _ZN7VASynth9FlashLoadEh
-C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s:3577   .text._ZN7VASynth9FlashLoadEh:00000020 $d
-C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s:3909   .qspiflash_bss:00000000 qspi_buffer
-C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s:3582   .text._ZN7VASynth10LiveToSaveEP14VASynthSetting:00000000 $t
-C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s:3590   .text._ZN7VASynth10LiveToSaveEP14VASynthSetting:00000000 _ZN7VASynth10LiveToSaveEP14VASynthSetting
-C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s:3769   .text._ZN7VASynth9FlashSaveEh:00000000 $t
-C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s:3777   .text._ZN7VASynth9FlashSaveEh:00000000 _ZN7VASynth9FlashSaveEh
-C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s:3838   .text._ZN7VASynth9FlashSaveEh:00000030 $d
-C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s:3862   .data.preset_setting:00000000 preset_setting
-C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s:3850   .bss.preset_number:00000000 preset_number
-C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s:3855   .data.preset_max:00000000 preset_max
-C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s:3851   .bss.preset_number:00000000 $d
-C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s:3858   .data.preset_setting:00000000 $d
-C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s:3906   .qspiflash_bss:00000000 $d
+C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s:17     .text._ZN7VASynth4InitEv:00000000 $t
+C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s:26     .text._ZN7VASynth4InitEv:00000000 _ZN7VASynth4InitEv
+C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s:1241   .text._ZN7VASynth4InitEv:0000038c $d
+C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s:1251   .text._ZN7VASynth11SetWaveformEv:00000000 $t
+C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s:1259   .text._ZN7VASynth11SetWaveformEv:00000000 _ZN7VASynth11SetWaveformEv
+C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s:1325   .text._ZN7VASynth5SetEGEv:00000000 $t
+C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s:1333   .text._ZN7VASynth5SetEGEv:00000000 _ZN7VASynth5SetEGEv
+C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s:1524   .text._ZN7VASynth5SetEGEv:000000c4 $d
+C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s:1529   .text._ZN7VASynth9SetFilterEv:00000000 $t
+C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s:1537   .text._ZN7VASynth9SetFilterEv:00000000 _ZN7VASynth9SetFilterEv
+C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s:1590   .text._ZN7VASynth6SetLFOEv:00000000 $t
+C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s:1598   .text._ZN7VASynth6SetLFOEv:00000000 _ZN7VASynth6SetLFOEv
+C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s:1701   .text._ZN7VASynth9SetPWMLFOEv:00000000 $t
+C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s:1709   .text._ZN7VASynth9SetPWMLFOEv:00000000 _ZN7VASynth9SetPWMLFOEv
+C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s:1804   .text._ZN7VASynth10SetPWM2LFOEv:00000000 $t
+C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s:1812   .text._ZN7VASynth10SetPWM2LFOEv:00000000 _ZN7VASynth10SetPWM2LFOEv
+C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s:1907   .text._ZN7VASynth12SetVCAVCFLFOEv:00000000 $t
+C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s:1915   .text._ZN7VASynth12SetVCAVCFLFOEv:00000000 _ZN7VASynth12SetVCAVCFLFOEv
+C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s:2018   .text._ZN7VASynth7ProcessEPfS0_:00000000 $t
+C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s:2026   .text._ZN7VASynth7ProcessEPfS0_:00000000 _ZN7VASynth7ProcessEPfS0_
+C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s:2926   .text._ZN7VASynth7ProcessEPfS0_:000003a4 $d
+C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s:2937   .text._ZN7VASynth6NoteOnEhh:00000000 $t
+C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s:2945   .text._ZN7VASynth6NoteOnEhh:00000000 _ZN7VASynth6NoteOnEhh
+C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s:3147   .text._ZN7VASynth6NoteOnEhh:000000d0 $d
+C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s:3154   .text._ZN7VASynth7NoteOffEh:00000000 $t
+C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s:3162   .text._ZN7VASynth7NoteOffEh:00000000 _ZN7VASynth7NoteOffEh
+C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s:3201   .text._ZN7VASynth9PitchBendEs:00000000 $t
+C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s:3209   .text._ZN7VASynth9PitchBendEs:00000000 _ZN7VASynth9PitchBendEs
+C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s:3236   .text._ZN7VASynth9PitchBendEs:0000001c $d
+C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s:3241   .text._ZN7VASynth13ProgramChangeEh:00000000 $t
+C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s:3249   .text._ZN7VASynth13ProgramChangeEh:00000000 _ZN7VASynth13ProgramChangeEh
+C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s:3266   .text._ZN7VASynth13ProgramChangeEh:00000008 $d
+C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s:3271   .text._ZN7VASynth10SaveToLiveEP14VASynthSetting:00000000 $t
+C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s:3279   .text._ZN7VASynth10SaveToLiveEP14VASynthSetting:00000000 _ZN7VASynth10SaveToLiveEP14VASynthSetting
+C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s:3478   .text._ZN7VASynth10SaveToLiveEP14VASynthSetting:00000120 $d
+C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s:3483   .text._ZN7VASynth5FirstEv:00000000 $t
+C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s:3491   .text._ZN7VASynth5FirstEv:00000000 _ZN7VASynth5FirstEv
+C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s:3515   .text._ZN7VASynth5FirstEv:0000000c $d
+C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s:3521   .text._ZN7VASynth9FlashLoadEh:00000000 $t
+C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s:3529   .text._ZN7VASynth9FlashLoadEh:00000000 _ZN7VASynth9FlashLoadEh
+C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s:3577   .text._ZN7VASynth9FlashLoadEh:00000020 $d
+C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s:3909   .qspiflash_bss:00000000 qspi_buffer
+C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s:3582   .text._ZN7VASynth10LiveToSaveEP14VASynthSetting:00000000 $t
+C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s:3590   .text._ZN7VASynth10LiveToSaveEP14VASynthSetting:00000000 _ZN7VASynth10LiveToSaveEP14VASynthSetting
+C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s:3769   .text._ZN7VASynth9FlashSaveEh:00000000 $t
+C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s:3777   .text._ZN7VASynth9FlashSaveEh:00000000 _ZN7VASynth9FlashSaveEh
+C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s:3838   .text._ZN7VASynth9FlashSaveEh:00000030 $d
+C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s:3862   .data.preset_setting:00000000 preset_setting
+C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s:3850   .bss.preset_number:00000000 preset_number
+C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s:3855   .data.preset_max:00000000 preset_max
+C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s:3851   .bss.preset_number:00000000 $d
+C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s:3858   .data.preset_setting:00000000 $d
+C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s:3906   .qspiflash_bss:00000000 $d
 
 UNDEFINED SYMBOLS
-ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccjwcwD9.s 			page 100
+ARM GAS  C:\Users\jcjco\AppData\Local\Temp\ccZs88zN.s 			page 100
 
 
 _ZN7daisysp4Adsr4InitEfi
