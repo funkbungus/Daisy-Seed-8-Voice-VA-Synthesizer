@@ -1,6 +1,6 @@
 /*This is code modified by Jacob August Colburn based on the code created by those credited below,
 it seeks to make the midi implimentation more universal at the moment, or at the least deployed in a manner 
-my nektar impact lx49 (non plus) can handle.
+my nektar impact lx49 (non plus) can handle, readme has up to date info on the goings on of this shit
 /*
 
 
