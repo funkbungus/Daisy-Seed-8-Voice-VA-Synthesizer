@@ -127,8 +127,9 @@ void HandleMidiMessage(MidiEvent m)
             switch(p.control_number)
             {
 				case 1: // Modulation Wheel
-					vasynth.lfo_amp_ = ((float)p.value/127.0f);
-                    vasynth.SetLFO();
+					vasynth.filter_cutoff_ = ((float)p.value / 127.0f) * FILTER_CUTOFF_MAX;
+                    vasynth.SetFilter();			
+						 	break;	
                     break;
 				{
 
@@ -173,11 +174,16 @@ void HandleMidiMessage(MidiEvent m)
 							break;
 						}
 						case 2:
-						{					
-					vasynth.filter_cutoff_ = ((float)p.value / 127.0f) * FILTER_CUTOFF_MAX;
-                    vasynth.SetFilter();			
-						 	break;		
+						{
+							vasynth.filter_res_ = ((float)p.value / 127.0f);
+                    		vasynth.SetFilter();
+							break;
 						}
+	//					{					
+	//				vasynth.filter_cutoff_ = ((float)p.value / 127.0f) * FILTER_CUTOFF_MAX;
+     //               vasynth.SetFilter();			
+	//					 	break;		
+	//				}
 						case 3:
 						{
 							vasynth.osc_mix_ = ((float)p.value / 127.0f);
@@ -194,71 +200,82 @@ void HandleMidiMessage(MidiEvent m)
 							break;
 						}
 						case 6:
-						{
-							vasynth.filter_res_ = ((float)p.value / 127.0f);
-                    		vasynth.SetFilter();
-							break;
-						}
-
-						// case 7 and 8 can go 
-						case 7:
-						{
-							vasynth.osc_pw_ = ((float)p.value / 255.0f);
-							break;
-						}
-						case 8:
-						{
-							vasynth.osc2_pw_ = ((float)p.value / 255.0f);
-							break;
-						}
-
-						// find way to multiplex filter/amp EG or matrix?
-						case 9:	
-						{
+							{
 							vasynth.eg_f_attack_ = ((float)p.value / 127.0f);
 							vasynth.SetEG();
 							break;
 						}
-						case 10:
+					//	{
+					//		vasynth.filter_res_ = ((float)p.value / 127.0f);
+                    //		vasynth.SetFilter();
+					//		break;
+					//	}
+
+						// case 7 and 8 can go 
+						case 7:
+						{
+							vasynth.eg_f_attack_ = ((float)p.value / 127.0f);
+							vasynth.SetEG();
+							break;
+						}						
+
+						case 8:
 						{
 							vasynth.eg_f_decay_ = ((float)p.value / 127.0f);
 							vasynth.SetEG();
 							break;
 						}
-						case 11:
-						{
+
+
+
+						// find way to multiplex filter/amp EG or matrix?
+						case 9:	
+							{
 							vasynth.eg_f_sustain_ = ((float)p.value / 127.0f);
 							vasynth.SetEG();
 							break;
 						}
-						case 12:
+
+						case 10:
 						{
 							vasynth.eg_f_release_ = ((float)p.value / 127.0f);
 							vasynth.SetEG();
 							break;
 						}
-						case 13:
+						case 11:
 						{
 							vasynth.eg_a_attack_ = ((float)p.value / 127.0f);
 							vasynth.SetEG();
 							break;
 						}
-						case 14:
+
+
+						case 12:
 						{
 							vasynth.eg_a_decay_ = ((float)p.value / 127.0f);
 							vasynth.SetEG();
 							break;
 						}
-						case 15:
+						case 13:
 						{
 							vasynth.eg_a_sustain_ = ((float)p.value / 127.0f);
 							vasynth.SetEG();
 							break;
 						}
-						case 16:
+						case 14:
 						{
 							vasynth.eg_a_release_ = ((float)p.value / 127.0f);
 							vasynth.SetEG();
+							break;
+						}
+						case 15:
+						{
+							vasynth.osc_pw_ = ((float)p.value / 255.0f);
+							break;
+						}
+						case 16:
+						{
+							vasynth.osc2_pw_ = ((float)p.value / 255.0f);
 							break;
 						}
 
@@ -273,16 +290,17 @@ void HandleMidiMessage(MidiEvent m)
 							vasynth.env_kbd_follow_ = ((float)p.value / 127.0f);
 							break;
 						}
+					case 20:
+						{
+							vasynth.filter_res_ = ((float)p.value / 127.0f);
+                    		vasynth.SetFilter();
+							break;
+						}
 						case 19:
-						{
-							vasynth.vel_select_ = p.value >> 5;
-							break;
-						}
-						case 20:
-						{
-							vasynth.eg_f_amount_ = ((float)p.value / 127.0f);
-							break;
-						}
+				vasynth.filter_cutoff_ = ((float)p.value / 127.0f) * FILTER_CUTOFF_MAX;
+                    vasynth.SetFilter();			
+					 	break;		
+				}
 						case 21:
 						{
 							vasynth.lfo_freq_ = ((float)p.value / 127.0f);
@@ -342,24 +360,7 @@ void HandleMidiMessage(MidiEvent m)
 									vasynth.vcavcflfo_waveform_ = WAVE_POLYBLEP_SAW;
 									break;
 							}
-							vasynth.SetVCAVCFLFO();
-							break;
-						}
-					}
-					break;
-                default: break;
-            }
-            break;
-        }
-		case ProgramChange:
-        {
-            ProgramChangeEvent p = m.AsProgramChange();
-            if ((vasynth.midi_channel_ == MIDI_CHANNEL_ALL) || (p.channel == vasynth.midi_channel_))
-			{
-				if(p.program >= 29)
-				{
-					switch (p.program)
-					{
+						
 						case 35:
 						{
 							// Sequencer Mode Record
@@ -397,117 +398,14 @@ void HandleMidiMessage(MidiEvent m)
 							seqmem = 0x00010000;
 							break;
 						}
-						case 39:
-						{
-							vasynth.FlashLoad(0);
-							break;
-						}
-						case 40:
-						{
-							vasynth.FlashLoad(1);
-							break;
-						}
-						case 41:
-						{
-							vasynth.FlashLoad(2);
-							break;
-						}
-						case 42:
-						{
-							vasynth.FlashLoad(3);
-							break;
-						}
-						case 43:
-						{
-							vasynth.FlashLoad(4);
-							break;
-						}
-						case 44:
-						{
-							vasynth.FlashLoad(5);
-							break;
-						}
-						case 45:
-						{
-							vasynth.FlashLoad(6);
-							break;
-						}
-						case 46:
-						{
-							vasynth.FlashLoad(7);
-							break;
-						}
-						case 47:
-						{
-							vasynth.FlashLoad(8);
-							break;
-						}
-						case 48:
-						{
-							vasynth.FlashLoad(9);
-							break;
-						}
-						case 49:
-						{
-							vasynth.FlashSave(0);
-							break;
-						}
-						case 50:
-						{
-							vasynth.FlashSave(1);
-							break;
-						}
-						case 51:
-						{
-							vasynth.FlashSave(2);
-							break;
-						}
-						case 52:
-						{
-							vasynth.FlashSave(3);
-							break;
-						}
-						case 53:
-						{
-							vasynth.FlashSave(4);
-							break;
-						}
-						case 54:
-						{
-							vasynth.FlashSave(5);
-							break;
-						}
-						case 55:
-						{
-							vasynth.FlashSave(6);
-							break;
-						}
-						case 56:
-						{
-							vasynth.FlashSave(7);
-							break;
-						}
-						case 57:
-						{
-							vasynth.FlashSave(8);
-							break;
-						}
-						case 58:
-						{
-							vasynth.FlashSave(9);
-							break;
-						}
+				
 					}
 				}	
-				else
-				{
-					vasynth.ProgramChange(p.program);
-					break;				
-				}
-			}    
-        }
-        default: break;
-    }
+
+
+		}
+		default: break;
+	}
 }
 
 void SequencerPlay(uint16_t modenum)
@@ -595,7 +493,7 @@ void SequencerRecord(uint8_t recnote, uint8_t recvelocity)
 		seqclock = 0;
 		seqmem = 0x00010000;
 	}
-}
+	}
 
 /* SRAM memory handling routines */
 void writeSram(uint32_t l_addr, uint8_t l_data)
@@ -713,5 +611,5 @@ int main(void)
         {
             HandleMidiMessage(midi.PopEvent());
         }	
-	}
-}
+	}}
+	

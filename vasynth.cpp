@@ -69,6 +69,8 @@ void VASynth::Init()
 		osc2_[i].SetPw(0.5f);
 		
 		// EG - amplitude
+		
+		
 		eg_a_[i].Init(sample_rate_);
 		eg_a_[i].SetTime(ADSR_SEG_ATTACK, eg_a_attack_);
 		eg_a_[i].SetTime(ADSR_SEG_DECAY, eg_a_decay_);
