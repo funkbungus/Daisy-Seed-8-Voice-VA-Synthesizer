@@ -1,3 +1,9 @@
+/*This is code modified by Jacob August Colburn based on the code created by those credited below,
+it seeks to make the midi implimentation more universal at the moment, or at the least deployed in a manner 
+my nektar impact lx49 (non plus) can handle.
+/*
+
+
 /*
 This code is a modification of OscPocketD/VASynth, created by Staffan Melin, staffan.melin@oscillator.se.
 It was later modified by (Steven @moonfriendsynth) to work with the Daisy Pod.
@@ -72,6 +78,7 @@ void AudioCallback(AudioHandle::InterleavingInputBuffer  in,
 	}
 }
 
+
 // midi handler
 void HandleMidiMessage(MidiEvent m)
 {
@@ -120,56 +127,56 @@ void HandleMidiMessage(MidiEvent m)
             switch(p.control_number)
             {
 				case 1: // Modulation Wheel
-					vasynth.lfo_amp_ = ((float)p.value / 127.0f);
+					vasynth.lfo_amp_ = ((float)p.value/127.0f);
                     vasynth.SetLFO();
                     break;
-				case 7: // Data Slider Default (Volume)
-					switch(param_)
-					{
-						case 0: // This is set as the default parameter
-						{
-							master_tune = 1.0f - ((float)p.value / 64.0f);
-							break;
-						}
-						case 1:
+				{
+
+						case 119:
 						{
 							switch(p.value >> 5)
 							{
-								case 0:
+								case 1:
 									vasynth.waveform_ = WAVE_TRI;
 									break;
-								case 1:
+								case 4:
 									vasynth.waveform_ = WAVE_SAW;
 									break;
-								case 2:
+								case 3:
 									vasynth.waveform_ = WAVE_SQUARE;
 									break;
-								case 3:
+								case 2:
 									vasynth.waveform_ = WAVE_POLYBLEP_SAW;
 									break;
 							}
 							vasynth.SetWaveform();
 							break;
 						}
-						case 2:
+						case 120:
 						{
 							switch(p.value >> 5)
 							{
-								case 0:
+								case 1:
 									vasynth.osc2_waveform_ = WAVE_TRI;
 									break;
-								case 1:
+								case 2:
 									vasynth.osc2_waveform_ = WAVE_SAW;
 									break;
-								case 2:
+								case 3:
 									vasynth.osc2_waveform_ = WAVE_SQUARE;
 									break;
-								case 3:
+								case 4:
 									vasynth.osc2_waveform_ = WAVE_POLYBLEP_SAW;
 									break;
 							}
 							vasynth.SetWaveform();
 							break;
+						}
+						case 2:
+						{					
+					vasynth.filter_cutoff_ = ((float)p.value / 127.0f) * FILTER_CUTOFF_MAX;
+                    vasynth.SetFilter();			
+						 	break;		
 						}
 						case 3:
 						{
@@ -192,6 +199,8 @@ void HandleMidiMessage(MidiEvent m)
                     		vasynth.SetFilter();
 							break;
 						}
+
+						// case 7 and 8 can go 
 						case 7:
 						{
 							vasynth.osc_pw_ = ((float)p.value / 255.0f);
@@ -202,7 +211,9 @@ void HandleMidiMessage(MidiEvent m)
 							vasynth.osc2_pw_ = ((float)p.value / 255.0f);
 							break;
 						}
-						case 9:
+
+						// find way to multiplex filter/amp EG or matrix?
+						case 9:	
 						{
 							vasynth.eg_f_attack_ = ((float)p.value / 127.0f);
 							vasynth.SetEG();
@@ -250,6 +261,8 @@ void HandleMidiMessage(MidiEvent m)
 							vasynth.SetEG();
 							break;
 						}
+
+					
 						case 17:
 						{
 							vasynth.vcf_kbd_follow_= ((float)p.value / 127.0f);
