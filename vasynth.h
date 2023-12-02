@@ -10,10 +10,10 @@
 #define PRESET_MAX 1
 
 // waveforms
-#define WAVE_TRI 1
-#define WAVE_SAW 2
-#define WAVE_SQUARE 4
-#define WAVE_POLYBLEP_SAW 6 
+#define WAVE_TRI 0
+#define WAVE_SAW 1
+#define WAVE_SQUARE 2
+#define WAVE_POLYBLEP_SAW 3 
 
 using namespace daisy;
 using namespace daisysp;
