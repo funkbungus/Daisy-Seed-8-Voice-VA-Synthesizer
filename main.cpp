@@ -133,85 +133,62 @@ void HandleMidiMessage(MidiEvent m)
                     break;
 				{
 
-						case 119:
+						case 2:
 						{
 							switch(p.value >> 5)
 							{
-								case 1:
+								case 0:
 									vasynth.waveform_ = WAVE_TRI;
 									break;
-								case 4:
+								case 1:
 									vasynth.waveform_ = WAVE_SAW;
 									break;
-								case 3:
+								case 2:
 									vasynth.waveform_ = WAVE_SQUARE;
 									break;
-								case 2:
+								case 3:
 									vasynth.waveform_ = WAVE_POLYBLEP_SAW;
 									break;
 							}
 							vasynth.SetWaveform();
 							break;
 						}
-						case 120:
+						case 3:
 						{
 							switch(p.value >> 5)
 							{
-								case 1:
+								case 0:
 									vasynth.osc2_waveform_ = WAVE_TRI;
 									break;
-								case 2:
+								case 1:
 									vasynth.osc2_waveform_ = WAVE_SAW;
 									break;
-								case 3:
+								case 2:
 									vasynth.osc2_waveform_ = WAVE_SQUARE;
 									break;
-								case 4:
+								case 3:
 									vasynth.osc2_waveform_ = WAVE_POLYBLEP_SAW;
 									break;
 							}
 							vasynth.SetWaveform();
 							break;
 						}
-						case 2:
-						{
-							vasynth.filter_res_ = ((float)p.value / 127.0f);
-                    		vasynth.SetFilter();
-							break;
-						}
-	//					{					
-	//				vasynth.filter_cutoff_ = ((float)p.value / 127.0f) * FILTER_CUTOFF_MAX;
-     //               vasynth.SetFilter();			
-	//					 	break;		
-	//				}
-						case 3:
+
+						case 4:
 						{
 							vasynth.osc_mix_ = ((float)p.value / 127.0f);
 							break;
 						}
-						case 4:
+						case 5:
 						{
 							vasynth.osc2_detune_ = ((float)p.value / 255.0f);
 							break;
 						}
-						case 5:
+						case 6:
 						{
 							vasynth.osc2_transpose_ = (1.0f + ((float)p.value / 127.0f));
 							break;
 						}
-						case 6:
-							{
-							vasynth.eg_f_attack_ = ((float)p.value / 127.0f);
-							vasynth.SetEG();
-							break;
-						}
-					//	{
-					//		vasynth.filter_res_ = ((float)p.value / 127.0f);
-                    //		vasynth.SetFilter();
-					//		break;
-					//	}
-
-						// case 7 and 8 can go 
 						case 7:
 						{
 							vasynth.eg_f_attack_ = ((float)p.value / 127.0f);
@@ -225,10 +202,6 @@ void HandleMidiMessage(MidiEvent m)
 							vasynth.SetEG();
 							break;
 						}
-
-
-
-						// find way to multiplex filter/amp EG or matrix?
 						case 9:	
 							{
 							vasynth.eg_f_sustain_ = ((float)p.value / 127.0f);
@@ -268,82 +241,43 @@ void HandleMidiMessage(MidiEvent m)
 							vasynth.SetEG();
 							break;
 						}
-						case 15:
-						{
-							vasynth.osc_pw_ = ((float)p.value / 255.0f);
-							break;
-						}
-						case 16:
-						{
-							vasynth.osc2_pw_ = ((float)p.value / 255.0f);
-							break;
-						}
-
 					
-						case 17:
+						case 15:
 						{
 							vasynth.vcf_kbd_follow_= ((float)p.value / 127.0f);
 							break;
 						}
-						case 18:
+						case 16:
 						{
 							vasynth.env_kbd_follow_ = ((float)p.value / 127.0f);
 							break;
 						}
-					case 20:
+					case 17:
 						{
 							vasynth.filter_res_ = ((float)p.value / 127.0f);
                     		vasynth.SetFilter();
 							break;
 						}
+						case 18:
+						{			
+							vasynth.filter_cutoff_ = ((float)p.value / 127.0f) * FILTER_CUTOFF_MAX;
+               		  	   vasynth.SetFilter();			
+					 	break;
+						}
+
 						case 19:
-				vasynth.filter_cutoff_ = ((float)p.value / 127.0f) * FILTER_CUTOFF_MAX;
-                    vasynth.SetFilter();			
-					 	break;		
-				}
-						case 21:
-						{
-							vasynth.lfo_freq_ = ((float)p.value / 127.0f);
-							vasynth.SetLFO();
-							break;
-						}
-						case 22:
-						{
-							vasynth.pwmlfo_freq_ = ((float)p.value / 127.0f);
-							vasynth.SetPWMLFO();
-							break;
-						}
-						case 23:
-						{
-							vasynth.pwmlfo_amp_ = ((float)p.value / 511.0f);
-							vasynth.SetPWMLFO();
-							break;
-						}
-						case 24:
-						{
-							vasynth.pwm2lfo_freq_ = ((float)p.value / 127.0f);
-							vasynth.SetPWM2LFO();
-							break;
-						}
-						case 25:
-						{
-							vasynth.pwm2lfo_amp_ = ((float)p.value / 511.0f);
-							vasynth.SetPWM2LFO();
-							break;
-						}
-						case 26:
 						{
 							vasynth.vcavcflfo_freq_ = ((float)p.value / 127.0f);
 							vasynth.SetVCAVCFLFO();
 							break;
 						}
-						case 27:
+						case 20:
 						{
 							vasynth.vcavcflfo_amp_ = ((float)p.value / 127.0f);
 							vasynth.SetVCAVCFLFO();
 							break;
 						}
-						case 28:
+						case 21:
 						{
 							switch(p.value >> 5)
 							{
@@ -360,15 +294,17 @@ void HandleMidiMessage(MidiEvent m)
 									vasynth.vcavcflfo_waveform_ = WAVE_POLYBLEP_SAW;
 									break;
 							}
-						
-						case 35:
+								vasynth.SetVCAVCFLFO();
+								break;
+						}
+						case 22:
 						{
 							// Sequencer Mode Record
 							seqmode = 1;
 							seqclock = 0;
 							break;
 						}
-						case 36:
+						case 23:
 						{
 							// Sequencer Mode Record End
 							seqmode = 2;
@@ -382,7 +318,7 @@ void HandleMidiMessage(MidiEvent m)
 							seqmem = 0x00010000;
 							break;
 						}
-						case 37:
+						case 24:
 						{
 							// Sequencer Mode Stop
 							seqmode = 0;
@@ -390,7 +326,7 @@ void HandleMidiMessage(MidiEvent m)
 							seqmem = 0x00010000;
 							break;
 						}
-						case 38:
+						case 25:
 						{
 							// Sequencer Mode Play
 							seqmode = 3;
